@@ -1,0 +1,17 @@
+2. WAP a python to fill the given letter template with name and date.
+letter="""
+Dear <Name>,
+You are selected!
+<Date>
+"""
+
+date=input("Enter the date: ")
+letter=f"""
+Dear {name},
+You are selected!
+{date}
+"""
+
+letter=letter.replace("<Name>",name)
+letter=letter.replace("<Date>",date)
+print(letter)
