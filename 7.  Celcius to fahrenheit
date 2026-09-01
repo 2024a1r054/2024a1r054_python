@@ -1,0 +1,4 @@
+# 1. WAP to take temperature in celcius from the user and convert it to fahrenheit.
+
+cel=int(input("Enter temperature in celcius: "))
+print("Temp in fahrenheit is: ",(cel*9/5)+32)
