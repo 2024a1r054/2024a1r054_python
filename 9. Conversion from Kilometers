@@ -1,0 +1,6 @@
+# 3. WAP to take distance in kilometers and convert it into metres, centimeters and milimeters.
+
+km=int(input("Enter distance in kilometers: "))
+print("In metres:", km*1000,"metres")
+print("In centimeters:",km*100000,"centimeters")
+print("In milimetres:",km*1000000,"milimetres")
