@@ -1,0 +1,5 @@
+# 4. WAP to ask the user for radius and calculate area and circumference of circle.
+
+rad=int(input("Enter radius of circle:"))
+cir=print("Circumference of circle is:",2*3.14*rad)
+area=print("Area of circle is:",3.14*rad*rad)
