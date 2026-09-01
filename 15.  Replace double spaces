@@ -1,0 +1,6 @@
+4. WAP to replace double spaces from problem 3 with single space.
+
+string=input("Enter a string: ")
+if "  " in string:
+    string=string.replace("  "," ")
+print (string)
