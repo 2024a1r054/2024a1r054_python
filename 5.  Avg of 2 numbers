@@ -1,0 +1,6 @@
+# 5. Find an average of 2 numbers entered by the user.
+
+m=int(input("Enter 1st number: "))
+n=int(input("Enter 2nd number: "))
+avg=(m+n)/2
+print(avg)
