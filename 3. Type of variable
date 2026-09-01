@@ -1,0 +1,8 @@
+# 3. Check the type of variable assigned using input() function.
+
+p='Apple'
+q=32
+r=3.14
+print(type(p))
+print(type(q))
+print(type(r))
