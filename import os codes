@@ -1,0 +1,45 @@
+# 1.  Write a python program to print the contents of a directory using the os module. Search online for the function which does that.
+import os
+result=os.listdir()
+print(result)
+
+
+# 2.  Now we need to print the path 
+import os
+print(os.getcwd())  # This will print the current working directory
+
+
+# 3.   Now create a directory in the present directory using os module
+import os
+print(os.mkdir('new'))
+print(os.listdir()) This will print and check if new directory was made.
+
+
+
+# 4.  To check if folder exists in currrent folder or not and give true or false
+import os
+print(os.path.exists('new'))  # This will return True if 'new' directory exists, otherwise False
+print(os.path.exists('cpp'))
+
+
+
+# 5.   To rename the folder
+import os
+print(os.rename('new','sub'))  # This will rename the 'new' directory to 'sub'
+
+
+# 6.   Check if file exists or not
+import os
+print(os.path.isfile('1.py'))  # This will return True if '1.py' is a file, otherwise False
+print(os.path.isdir('sub'))  # This will return True if 'sub' is a directory, otherwise False
+
+
+# 7.  Use remove function
+import os
+print(os.remove('2.py'))  # This will remove the file '1.py' if it exists
+
+
+# 8.  Now use function to delete the directory
+import os
+print(os.rmdir('app'))  # This will remove the directory 'app' if it is empty
+
