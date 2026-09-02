@@ -1,0 +1,11 @@
+3. WAP to take an amount in Rs and calculate how many Rs 500 and Rs 100 notes are needed.
+   ex: 3800=7 notes of 500 and 3 notes of 100
+
+amount=int(input("Enter amount in Rs: "))
+five=amount//500
+rem=amount % 500
+
+hun= rem//100
+
+print("No. of five hundred notes=",five)
+print("No. of 100 ruoee notes",hun)
