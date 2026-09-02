@@ -1,0 +1,9 @@
+2. WAP to take a two number digit as input and print the sum of its digits.
+  ex: 57=5+7=12
+
+num=int(input("Enter a two digit number: "))
+sum=0
+while num>0:
+    sum +=num % 10
+    num //=10
+print(sum)
