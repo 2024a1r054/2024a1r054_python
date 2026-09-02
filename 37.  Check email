@@ -1,0 +1,7 @@
+2. Take an email address and check whether it contains @ and .com
+
+email=input("Enter your email:")
+if "@" in email and ".com":
+    print("Valid email")
+else:
+    print("Invalid email")
