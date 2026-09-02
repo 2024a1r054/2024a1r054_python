@@ -1,0 +1,22 @@
+1. WAP to take a string and separate characters present at even index positions and odd index positions.
+
+s = input("Enter a string: ")
+
+even = ""
+odd = ""
+
+for i in range(len(s)):
+    if i % 2 == 0:
+        even += s[i]
+    else:
+        odd += s[i]
+
+        print("Characters at even index:", even)
+        print("Characters at odd index:", odd)
+
+# Or
+
+s = input("Enter a string: ")
+
+print("Even index characters:", s[::2])
+print("Odd index characters:", s[1::2])
