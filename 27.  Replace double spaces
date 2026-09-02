@@ -1,0 +1,6 @@
+3. WAP to take a sentence, detect double spaces and replace them with a single space.
+
+string=input("Enter a sentence: ")
+if "  " in string:
+    string=string.replace("  "," ")
+    print(string)
