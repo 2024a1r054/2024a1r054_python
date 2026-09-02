@@ -1,0 +1,5 @@
+5. WAP to take first name and last name and print initials.
+
+name=input("Enter your name: ")
+initials="".join([part[0].upper() for part in name.split()])
+print("Initials:",initials)
