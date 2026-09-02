@@ -1,0 +1,9 @@
+# 4. WAP to take 2 inputs a and b, swap their values using a temp variable and print updated values.
+
+a=int(input("Enter 1st value:"))
+b=int(input("Enter 2nd value:"))
+temp=a
+a=b
+b=temp
+print("After swapping a is: ",a)
+print("After swapping b is: ",b)
