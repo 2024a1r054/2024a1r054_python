@@ -1,0 +1,23 @@
+
+3. Write a program to calculate the final bill amount after applying a discount. The program shoulf take the total bill amount as input from the user and apply the discount according to the following rules.
+After calculating the discount, the program should display the discount amount and the final bill amount payable by the customer.
+
+Bill Amount    Discount
+Above 5000         20%
+3000 to 5000       10%
+Below 3000         No discount
+
+
+
+bill=int(input("Enter Bill amount:"))
+if (bill>=5000):
+    discount=bill*0.2
+    final=bill-discount
+    print("You are eligible for 20% discount. Final bill amount is:",final,"You saved:",discount)
+
+elif (3000<=bill<5000):
+    discount=bill*0.1
+    final=bill-discount
+    print("YPu ar4e eligible for 10% discount. Final bill amount is:",final,"You saved:",discount)
+else:
+    print("You are not eligible for any discount. Your final bill amount is:",bill)
