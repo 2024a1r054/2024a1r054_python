@@ -1,0 +1,12 @@
+1. WAP a python program to simulate a digital lock system. The lock should ask the user to enter a 4-digit pin does not contain exactly 4 digits, the program should display an error message and ask again.
+If the entered PIN is correct, the lock should open. Otherwise, the program should ask the user to try again.
+
+userpin=2345
+pin=int(input("Enter a 4-digit PIN: "))
+if len(str(pin))!= 4:
+    print("Error: PIN has less than 4 digits. Try again.")
+else:
+    if pin==userpin:
+        print("Lock opened.")
+    else:
+        print("Incorrect PIN. Try again.")
