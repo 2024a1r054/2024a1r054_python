@@ -1,0 +1,12 @@
+5. WAP to input a number and reverse it using arithmetic operations only.
+
+num = int(input("Enter an integer: "))
+
+reversed_num = 0
+
+while num > 0:
+    last_digit = num % 10                        # Get the last digit
+    reversed_num = (reversed_num * 10) + last_digit 
+    num = num // 10                              # Remove the last digit
+
+    print(reversed_num)  # Output: 54321
