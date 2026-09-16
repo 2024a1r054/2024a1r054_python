@@ -1,0 +1,12 @@
+4. WAP to print an inverted triangle.
+****
+***
+**
+*
+
+n = 4
+
+# Outer loop for rows in reverse order
+for i in range(n, 0, -1):
+    # Print stars for the current row
+    print("*" * i)
