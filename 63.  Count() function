@@ -1,0 +1,6 @@
+8. WAP to count how many times a particular element appears in a list. 
+
+numbers = [10, 20, 30, 20, 40, 20, 50]
+element = int(input("Enter element to search: "))
+count = numbers.count(element)
+print("Element appears", count, "times")
