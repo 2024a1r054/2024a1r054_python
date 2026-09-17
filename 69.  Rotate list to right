@@ -1,0 +1,7 @@
+6. WAP to rotate a list one position to the right.
+
+# Input list
+lst = [1, 2, 3, 4, 5]
+# Rotate one position to the right
+lst = [lst[-1]] + lst[:-1]
+print("Rotated list:", lst)
