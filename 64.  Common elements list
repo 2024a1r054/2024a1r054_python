@@ -1,0 +1,11 @@
+9. WAP to input two lists and create a 3rd list containing common elements.
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7]
+list3 = []
+
+for i in list1:
+    if i in list2:
+        list3.append(i)
+
+        print("Common elements:", list3)
