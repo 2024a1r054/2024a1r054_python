@@ -1,0 +1,35 @@
+4. Create a BankAccount class that stores an account holder's name and balance. Add instance methods to deposit money, withdraw money and 
+display the balance. Do not allow a withdrawl greater than the available balance.
+
+class BankAccount:
+    def __init__(self,name,balance):
+        self.name=name
+        self.balance=balance
+
+    def deposit(self,amount):
+        self.balance=self.balance+amount
+
+    def withdraw(self,amount):
+        if amount<=self.balance:
+            self.balance=self.balance-amount
+            print("Withdrawal Successful.")
+
+        else:
+            print("Insufficient Balance.")
+
+    def show_balance(self):
+        print("Account Holder:",self.name)
+        print("Available Balance:",self.balance)
+
+
+name=input("Enter account holder name:")
+balance=float(input("Enter initial balance:"))
+account1=BankAccount(name,balance)
+
+deposit_amount=float(input("Enter amount to deposit:"))
+account1.deposit(deposit_amount)
+
+withdraw_amount=float(input("Enter amount to withdraw:"))
+account1.withdraw(withdraw_amount)
+
+account1.show_balance()
